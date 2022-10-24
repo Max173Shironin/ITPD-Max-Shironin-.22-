@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            caption {
+                font-size: 14pt;
+            }
+        </style>
+</head>
+<body>
+        <table>
+                <caption>Меню пиццерии</caption>
+                <tbody>
+                  <tr>
+                    <th>Цена</th>
+                    <th>Тип пиццы</th>
+                    <th>Состав</th>
+                    <th>Вес</th>
+                  </tr>
+                  <tr>
+                    <td>480₽</td>
+                    <td>Мясная</td>
+                    <td>бекон, колбаски пепперони, ветчина, филе куринное, сыр пармезан</td>
+                    <td>520 грамм</td>
+                  </tr>
+                  <tr>
+                    <td>420₽</td>
+                    <td>Капричиоза</td>
+                    <td>помидоры, томатный соус, ветчина, маслины, шампиньоны, сыр пармезан</td>
+                    <td>600 грамм</td>
+                  </tr>
+                  <tr>
+                    <td>410₽</td>
+                    <td>Четыре сыра</td>
+                    <td>томатный соус, сыр моцарелла, фета, пармезан, гранд блю</td>
+                    <td>460 грамм</td>
+                  </tr>
+                  <tr>
+                    <td>460₽</td>
+                    <td>Цезарь</td>
+                    <td>лист салата микс, куринное филе, соус "Цезарь", помидоры, сыр пармезан</td>
+                    <td>500 грамм</td>
+                  </tr>
+                  <tr>
+                        <td>420₽</td>
+                        <td>Пепперони</td>
+                        <td>колбаски пепперони, соус томатный, сыр пармезан</td>
+                        <td>500 грамм</td>
+                  </tr>
+                  <tr>
+                        <td>410₽</td>
+                        <td>Барбекю</td>
+                        <td>филе куринное, бекон, лук красный, соус барбекю, сыр пармезан</td>
+                        <td>540 грамм</td>
+                      </tr>
+                      <tr>
+                            <td>350₽</td>
+                            <td>Маргарита</td>
+                            <td>помидоры, сыр пармезан</td>
+                            <td>550 грамм</td>
+                          </tr>
+                          <tr>
+                                <td>410₽</td>
+                                <td>Четыре сезона</td>
+                                <td>сыр фета, шампиньоны, пепперони, помидоры, пармезан, ветчина</td>
+                                <td>590 грамм</td>
+                              </tr>
+                              <tr>
+                                    <td>520₽</td>
+                                    <td>Средиземноморская</td>
+                                    <td>соус белый, кальмар, семга, палтус, сыр пармезан</td>
+                                    <td>580 грамм</td>
+                                  </tr>
+                                  <tr>
+                                        <td>410₽</td>
+                                        <td>Качаторэ</td>
+                                        <td>колбаски Охотничьи, соус томатный, помидоры, сыр пармезан</td>
+                                        <td>520 грамм</td>
+                                      </tr>
+                                      <tr>
+                                            <td>390₽</td>
+                                            <td>Неаполитанская</td>
+                                            <td>фарш домашний, соус томатный, помидоры, сыр пармезан</td>
+                                            <td>500 грамм</td>
+                                          </tr>
+                                          <tr>
+                                                <td>410₽</td>
+                                                <td>Гавайская</td>
+                                                <td>куринное филе, соус белый, ананас, пармезан, перец болгарский</td>
+                                                <td>600 грамм</td>
+                                              </tr>        
+                                              <tr>
+                                                    <td>420₽</td>
+                                                    <td>Карбонара</td>
+                                                    <td>бекон, филе куринное, яйцо перепелинное, соус белый</td>
+                                                    <td>550 грамм</td>
+                                                  </tr>        
+                </tbody>
+              </table>
+              <form>
+                    <fieldset>
+                        <legend>Ваши данные</legend>
+                        <label for="name">Ваше Имя</label>
+                        <input type="text" id="name" placeholder="Иванов" required/><br/><br/>
+                        <label for="el_ya">Email</label>
+                        <input type="email" id="el-ya" placeholder="example@mail.com" required/><br/><br/>
+                        <label for="adress">Адресс доставки</label>
+                        <input type="text" id="adress" placeholder="г.Москва, ул Первомайская, д 32, кв 14, 3 этаж" required/><br/><br/>
+                        <label for="phone_number">Телефон</label>
+                        <input type="tel" id="phone_number" placeholder="+7(987)-654-32-10"/><br/><br/>
+                        <label for="Comment">Комментарий к заказу</label>
+                        <input type="password" id="pass" placeholder=" Например: время заказа" required/><br/><br/>
+                        <fieldset>
+                                <legend>Оплата</legend>
+                                <input type="radio" name="Oplata" value="Пп"/>При получении</br>
+                                <input type="radio" name="Oplata" value="Бк"/>Банковской картой</br>
+                           </fieldset>
+                    </fieldset>
+                    <fieldset>
+                            <label for="nomer">Номер карты</label>
+                            <input type="text" id="nomer" placeholder="Введите номер карты" required/><br/><br/>
+                    </fieldset>
+                </form>
+                <input type="button" name="send_d" value="Отправить"/>
+                <input type="reset" name="clr" value="Очистить форму">  
+</body>
+</html>

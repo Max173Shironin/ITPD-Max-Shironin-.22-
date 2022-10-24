@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <form>
+                <fieldset>
+                    <legend>Регистрация пользователя</legend>
+                    <label for="FIO">ФИО (обязательно для заполнения)</label>
+                    <input type="text" id="FIO" placeholder="Иванов Иван Иванович" required/><br/><br/>
+                    <label for="login">Логин (обязательно для заполнения)</label>
+                    <input type="text" id="login" placeholder="ubivator2000" required/><br/><br/>
+                    <label for="pass">Пароль (обязательно для заполнения)</label>
+                    <input type="password" id="pass" placeholder="SJu83ya" required/><br/><br/>
+                    <label for="repeat_pass">Подтверждение пароля (обязательно для заполнения)</label>
+                    <input type="password" id="repeat_pass" placeholder="Подтверждение пароля" required/><br/><br/>
+                    <label for="el_ya">Адрес электронной почты (обязательно для заполнения)</label>
+                    <input type="email" id="el-ya" placeholder="example@mail.com" required/><br/><br/>
+                    <label for="phone_number">Ваш номер телефона</label>
+                    <input type="adres" id="phone_number" placeholder="+7(987)654-32-10"/><br/><br/>
+                    <label for="adres">Адрес</label>
+                    <input type="text" id="adres" placeholder="Первомайский пер., 11"/><br/><br/>
+                    <legend>Пол</legend>
+                    <input type="radio" name="male/female" value="Мужской"/>Мужской</br>
+                    <input type="radio" name="male/female" value="Женский"/>Женский</br>
+                    <label for="a_hero">Выбор цвета интерфейса</label><br/>
+                    <select id="a_hero" multiple>
+                        <option value="red">Красный</option>
+                        <option value="blue">Синий</option>
+                        <option value="yellow">Жёлтый</option>
+                        <option value="green">Зелёный</option>
+                        <option value="black">Чёрный</option>
+                        <option value="white">Белый</option>
+                        </select>
+                        <br/><br/>
+                        <label for="addit">О себе</label></br>
+                        <textarea id="adit" cols="30" rows="10"></textarea><br/><br/>
+                    <input type="button" name="send_d" value="Отправить"/>
+                    <input type="reset" name="clr" value="Очистить форму">  
+                </fieldset>
+            </form>
+</body>
+</html>
