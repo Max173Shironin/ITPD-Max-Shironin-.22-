@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Helvetica, Tahoma, Arial;
+    src: url(font/Helvetica.ttf);
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    font-family: Helvetica, Tahoma, Arial;
+}
+body > div {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .2);
+}
+h1 {
+    padding: 15px 0;
+    font-size: 6em;
+    text-align: center;
+    text-shadow: -5px 0 5px black;
+}
+body > div > div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    width: 375px;
+    height: 175px;
+    background-color: rgba(210, 0, 0, .2);
+}
+body > div > div > h2 {
+    white-space: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+body > div > div > p {
+    text-indent: 10px;
+}
+body > div > div > p:nth-child(2) {
+    word-spacing: 25px;
+}
+body > div > div > p:nth-child(3) {
+    word-spacing: 5px;
+}
+body > div > div > p:nth-last-child() {
+    font-size: 14pt;
+}

@@ -1,0 +1,24 @@
+@font-face {
+         font-family: Helvetica, Tahoma, Arial;
+         src: url(font/Helvetica.tff)
+}
+body {
+           width: 1200px;
+           margin: 0 auto;
+           font-family: Helvetica, Tahoma, Arial;
+}
+h1 {
+             color:red;
+             text-shadow: -3px -3px 5px blue;
+}
+p {
+             letter-spacing: 5px;
+             line-height: 15px;
+             text-align: justify;
+}
+span {
+             word-spacing: 8px;
+}
+a {
+             float: right;
+}

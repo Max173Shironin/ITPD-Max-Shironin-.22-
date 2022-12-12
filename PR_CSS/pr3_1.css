@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Helvetica, Tahoma, Arial;
+    src: url(font/Helvetica.ttf);
+    
+    }
+    body {
+    font-family: Helvetica, Tahoma, Arial;
+    }
+    h1 {
+    font-size: 3em;
+    text-align: center;
+    }
+    p {
+    text-align: justify;
+    font-size: 1.4em;
+    }
+    p span {
+    text-decoration: line-through;
+    }
+    
+    р > span:nth-child(2) {
+    font-weight: bold;
+    }
+    
+    p > span:nth-child(3) {
+             text-decoration: underline overline;
+    }
+    а {
+    
+    text-decoration: none;
+    color: red;
+    }
