@@ -1,0 +1,270 @@
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    background-color: white;
+    max-width: 1154px;
+    margin: 0 auto;
+    padding: 0 10;
+}
+
+.body{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__inner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.header-main{
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+}
+
+.menu__list{
+    padding-left:450px;
+    display: flex;
+    gap: 25px;
+}
+
+.menu__list-link{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer{
+    z-index: 5;
+    left: 0;
+    right: 0;
+}
+.footer__menu{
+    background-color:white;
+    padding: 15px 0 15px;
+    color: #F65959CF;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 300px;
+    margin-bottom: 20px;
+}
+
+.footer__menu-title{
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.footer__menu-item + .footer__menu-item{
+    padding-top: 5px;
+}
+
+.footer__copy{
+    display: grid;
+}
+
+.footer__copy-text{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+.top{
+    color: white;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 50px;
+}
+
+.title{
+    padding-bottom: 15px;
+    font-size: 56px;
+    z-index: 2;
+    left: 0;
+    right: 0;
+}
+
+.title-text{
+    font-size: 20px;
+    max-width: 600px;
+    width: 100%;
+    display: inline-block;
+}
+
+.title-img {
+    left: 0;
+    right: 0;
+    margin: 10px -375px 20px;
+    display: block;
+}
+
+.title-img1{
+    width: 1920px;
+    height: 800px;
+}
+
+.title-box{
+    top: 400px;
+    z-index: 11;
+    left: 0;
+    right: 0;
+    position:absolute
+}
+
+.main-info__catalogue1{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 67, 35);
+    width: 180px;
+    color: white;
+}
+
+.main-info__catalogue2{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 86, 59);
+    width: 180px;
+    color: white;
+}
+
+.main-info__catalogue3{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 107, 82);
+    width: 180px;
+    color: white;
+}
+
+.main-info__catalogue4{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 126, 105);
+    width: 180px;
+    color: white;
+}
+
+.main-info__list{
+    columns: 50px 3;
+}    
+
+.main-info__item{
+    margin: auto;
+    text-align: center;
+    max-width: 300px;
+    padding-top: 45px;
+}
+
+.main-info__item-title{
+    font-size: 24px;
+}
+
+.main-info__item-text{
+    font-size: 20px;
+}
+
+.about-us__text1{
+    margin-top: 100px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.3 
+}
+
+.feedback__title1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F65959CF;
+    text-align: center;
+}
+
+.feedback__item{
+    margin-top: 25px;
+}
+
+.feedback__item-title{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.feedback__item-text{
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.feedback__images{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feedback__item-text2{
+    font-size:24px;
+}
+
+.delivery__item-title{
+    margin-bottom: 5px;
+    line-height: 1.5;
+    font-size: 36px;
+}
+
+.delivery__item-text{
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.delivery__item1{
+    position: absolute;
+    z-index: 1
+}
+
+.delivery__item2{
+    margin-left: 800px;
+    z-index: -1;
+    margin-bottom: 100px;
+}
+
+.delivery__image1{
+    width:80%;
+    display: block;
+    margin: auto;
+}
