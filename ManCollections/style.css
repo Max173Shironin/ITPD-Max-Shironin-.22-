@@ -1,0 +1,99 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    max-width: 1440px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+    border-bottom: 1px solid #8f8f8f;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.main-menu ul{
+    text-align: center;
+}
+
+.main-menu ul li{
+    list-style-type: none;
+    font-size: 16pt;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url(img/slider_spec_pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+section {
+    border-top: 1px solid gray;
+}
+
+section h1{
+    text-align: center;
+}
+
+/* НОВИНКИ */
+.prod{
+    display: flex;
+    justify-content: center;
+}
+.prod-item{
+    margin-left: 30px;
+    text-align: center;
+}
+.prod-item p:nth-child(3){
+    font-weight: 700;
+}
+/* О КОМПАНИИ */
+.about{
+    background-image: url(img/bg_about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -240px;
+    height: 250px;
+    padding-top: 50px;    
+}
+
+.about p{
+    width: 50%;
+    font-size: 1.2em;
+    padding: 10px 0px 0px 10px;
+    color: white;
+}
+
+/* НАПИСАТЬ НАМ */
+form{
+    display: flex;    
+    flex-flow: column;
+    width: 400px;
+    margin: 0 auto;
+}
+
+form div{
+    margin-top: 10px;
+    display: flex;    
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+footer{
+    margin: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid gray;
+    text-align: center;
+}
